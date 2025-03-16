@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #260cb8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #333;
+}
+
+/* Glossary List */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.glossary-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.glossary-item {
+    background-color: #ffffff;
+    border: 2px solid #260cb8;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.glossary-item:hover {
+    transform: scale(1.05);
+}
+
+.glossary-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.glossary-item h3 {
+    color: #260cb8;
+    font-size: 20px;
+}
+
+.glossary-item p {
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    background-color: #260cb8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #260cb8;
+}
+
+/* Cart Page */
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+}

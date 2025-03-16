@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossary Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Home Page -->
+    <header class="header">
+        <h1>Sakthi Glossary Website</h1>
+        <p>Welcome to the Sakthi Glossary!</p>
+    </header>
+
+    <section class="content">
+        <h2>Popular Items</h2>
+        <div class="glossary-list">
+            <div class="glossary-item">
+                <img src="https://schwitzbiotech.in/wp-content/uploads/elementor/thumbs/indian-food-grains-qjeaexsriud5yqe08i1kt27hro0al63gzq1h145mea.jpg" alt="Term Image">
+                <h3>Term 1</h3>
+                <p>A brief description of Item1.</p>
+                <button class="view-btn" onclick="goToGlossary('term1')">View Term</button>
+            </div>
+            <div class="glossary-item">
+                <img src="https://www.store2k.com/cdn/shop/articles/store2k_blog_2_d342a3bc-141f-4ce3-a06b-bf988b9a78f4_1024x.png?v=1628237346" alt="Term Image">
+                <h3>Term 2</h3>
+                <p>A brief description of Item 2.</p>
+                <button class="view-btn" onclick="goToGlossary('term2')">View Term</button>
+            </div>
+            <!-- Add more terms here -->
+        </div>
+    </section>
+
+    <footer>
+        <button class="btn-cart" onclick="goToCart()">Go to Cart</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
